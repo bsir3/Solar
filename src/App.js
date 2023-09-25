@@ -1,25 +1,22 @@
+import FileUpload from './FileUpload';
+import LeadList from './LeadList';
+import Dashboard from './Dashboard';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const handleUpload = (data) => {
+    console.log('Uploaded Data:', data);
+    // Here you can set the uploaded data to your state
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FileUpload onUpload={handleUpload} />
+      <LeadList />
     </div>
   );
 }
 
 export default App;
+

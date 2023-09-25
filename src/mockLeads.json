@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "email": "john@email.com",
+    "phone": "123-456-7890",
+    "address": "123 Solar St, Sunnyville, CA",
+    "initialScore": 70,
+    "engagement": 0,
+    "followUpResponse": 0,
+    "dataCompleteness": 100,
+    "timeDecay": 0,
+    "roofType": "Asphalt Shingle",
+    "leadSource": "Online Form"
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "email": "jane@email.com",
+    "phone": "987-654-3210",
+    "address": "456 Cloudy Ln, Rainville, WA",
+    "initialScore": null,
+    "engagement": 0,
+    "followUpResponse": 0,
+    "dataCompleteness": 80,
+    "timeDecay": 5,
+    "roofType": "Metal",
+    "leadSource": "Referral"
+  }
+]
